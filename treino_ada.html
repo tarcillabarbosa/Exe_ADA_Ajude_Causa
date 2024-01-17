@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="form_ajude.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ajude a Causa</title>
+    </head>
+    <body>
+        <h1>Ajude a Causa</h1>
+        <h2>Preencha seus dados</h2>
+        <form action="treino_ada2.html" method="get">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required name="nome" />
+            </div>
+            <div>
+                <label for="idade">Idade:</label> 
+                <input type="number" id="idade" required name="idade" />
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required name="email" />
+            </div>
+            <select name="Tamanho da Camisa">
+                <option>Tamanho da Camisa</option>
+                <option value="PP">PP</option>
+                <option value="P">P</option>
+                <option valeu="M">M</option>
+                <option valeu="G">G</option>
+                <option valeu="GG">GG</option>
+            </select>
+            <br>
+            <select name="Modalidade da Inscrição">
+                <option>Modalidade da Inscrição</option>
+                <option value="3RUN">Corrida 3km</option>
+                <option value="5RUN">Corrida 5km</option>
+                <option valeu="4WALK">Caminhada 4km</option>
+            </select>
+            </br>
+            <div>
+                <label for="valor_doado">Valor doado:</label>
+                <input type="number" id="valor_doado" required name="valor_doado" />
+            </div>
+            <div>
+                <button type="reset" >Limpar</button>
+                <button type="submit" >Enviar</button>
+              </div>
+          </form>
+    </body>
+</html>
