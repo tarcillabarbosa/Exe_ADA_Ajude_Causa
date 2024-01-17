@@ -1,0 +1,23 @@
+body{
+    background-image: url("teste1.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+} 
+h1{
+  color: rgb(220, 220, 252); 
+  background-color: rgba(0, 128, 0, 0.493);
+  padding: 10px;
+  margin: 0 0 20px;
+}
+h2{
+    color: rgb(197, 247, 62);
+}
+form{
+    text-align: center;
+    color:blanchedalmond;
+    background-color: rgba(0, 128, 0, 0.473);
+    border-collapse: collapse;
+}
+select{
+    color:rgb(2, 107, 16);
+}
